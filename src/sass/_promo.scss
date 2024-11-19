@@ -1,0 +1,36 @@
+.promo {
+  padding-top: 40px;
+  background: url("../images/background.jpg") center center / cover no-repeat;
+  min-height: 700px;
+
+  &__title {
+    margin-top: 148px;
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-top: 29px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    color: #f7f3f2;
+  }
+
+  &__btn {
+    display: block;
+    margin: 33px auto 0 auto;
+    padding: 12px 19px 11px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4e50;
+    border-radius: 40px;
+    border: none;
+  }
+}

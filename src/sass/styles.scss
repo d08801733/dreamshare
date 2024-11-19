@@ -1,9 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 html {
   font-family: "Montserrat", "Roboto", sans-serif;
 }
@@ -17,4 +11,5 @@ button {
   cursor: pointer;
 }
 
+@import "promo";
 @import "header";
