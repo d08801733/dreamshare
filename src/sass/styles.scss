@@ -3,3 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+html {
+  font-family: "Montserrat", "Roboto", sans-serif;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+@import "header";
