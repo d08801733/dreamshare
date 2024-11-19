@@ -1,4 +1,72 @@
 .header {
+  padding: 40px 0 224px 0;
   background: url("../images/background.jpg") center center / cover no-repeat;
   min-height: 700px;
+
+  &__navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__wrapper:nth-child(2) {
+    display: flex;
+    gap: 19px;
+    margin-right: 41px;
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__login {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &__signup {
+    padding: 10px 18px 9px 18px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 40px;
+  }
+
+  &__subtitle {
+    margin-top: 148px;
+    font-weight: 700;
+    font-size: 52px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-top: 29px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 24px;
+    text-align: center;
+    color: #f7f3f2;
+  }
+
+  &__btn {
+    display: block;
+    margin: 33px auto 0 auto;
+    padding: 12px 19px 11px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff4e50;
+    border-radius: 40px;
+    border: none;
+  }
 }
