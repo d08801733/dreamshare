@@ -16,17 +16,30 @@
   }
 
   &__item {
-    position: relative;
+    width: 300px;
+    min-height: 400px;
+    padding-top: 219px;
+    padding-left: 25px;
+
+    &:nth-child(1) {
+      background: url("../images/howitworks/step-1.jpg");
+    }
+
+    &:nth-child(2) {
+      background: url("../images/howitworks/step-2.jpg");
+      padding-top: 250px;
+    }
+
+    &:nth-child(3) {
+      background: url("../images/howitworks/step-3.jpg");
+    }
   }
 
   &__content {
     width: 250px;
-    position: absolute;
-    bottom: 21px;
-    left: 25px;
   }
 
-  &__btn {
+  &__badge {
     padding: 5px 14px 3px 14px;
     font-weight: 400;
     font-size: 10px;
@@ -36,6 +49,7 @@
     text-transform: uppercase;
     border-radius: 40px;
     border: none;
+    cursor: default;
   }
 
   &__subtitle {

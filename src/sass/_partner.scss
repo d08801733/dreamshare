@@ -1,6 +1,5 @@
 .partner {
   margin-top: 95px;
-  margin-bottom: 95px;
 
   &__title {
     margin: 0;
@@ -17,10 +16,39 @@
   }
 
   &__item {
+    position: relative;
     width: 221px;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  &__round {
+    position: absolute;
+    top: 88px;
+    left: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    &_music {
+      background-color: #ff4e50;
+    }
+
+    &_brush {
+      background-color: #19d4ca;
+    }
+
+    &_camera {
+      background-color: #ffa710;
+    }
+
+    &_airplane {
+      background-color: #667df3;
+    }
   }
 
   &__name {
