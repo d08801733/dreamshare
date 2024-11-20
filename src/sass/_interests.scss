@@ -1,0 +1,50 @@
+.interests {
+  margin-top: 95px;
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: #444;
+  }
+
+  &__text {
+    margin-top: 43px;
+    margin-bottom: 0;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+  }
+
+  &__form {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  &__input {
+    padding: 14px 158px 10px 15px;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 14px;
+    color: #999;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.07);
+    background-color: #fff;
+  }
+
+  &__submit {
+    padding: 12px 25px 11px 30px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background-color: #ff4e50;
+    border-radius: 40px;
+    border: none;
+  }
+}
