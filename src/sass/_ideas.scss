@@ -1,0 +1,76 @@
+.ideas {
+  margin-top: 95px;
+
+  &__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    color: #444;
+  }
+
+  &__wrapper {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+
+    &:nth-child(1) {
+      background: url("../images/ideas/sport.jpg") center center / cover
+        no-repeat;
+      width: 300px;
+    }
+
+    &:nth-child(2) {
+      background: url("../images/ideas/health.jpg") center center / cover
+        no-repeat;
+      width: 300px;
+    }
+
+    &:nth-child(3) {
+      background: url("../images/ideas/extreme.jpg") center center / cover
+        no-repeat;
+      width: 300px;
+    }
+
+    &:nth-child(4) {
+      background: url("../images/ideas/games.jpg") center center / cover
+        no-repeat;
+      width: 300px;
+    }
+
+    &:nth-child(5) {
+      background: url("../images/ideas/culture.jpg") center center / cover
+        no-repeat;
+      width: 620px;
+    }
+
+    &:nth-child(6) {
+      background: url("../images/ideas/relaxation.jpg") center center / cover
+        no-repeat;
+      width: 620px;
+    }
+
+    &:nth-child(7) {
+      background: url("../images/ideas/travelling.jpg") center center / cover
+        no-repeat;
+      width: 300px;
+    }
+  }
+
+  &__description {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+  }
+}
