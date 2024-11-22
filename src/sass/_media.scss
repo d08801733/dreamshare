@@ -27,6 +27,10 @@
   }
 
   .partner {
+    &__title {
+      font-size: 22px;
+    }
+
     &__wrapper {
       padding-left: 128px;
       padding-right: 128px;
@@ -51,6 +55,10 @@
   }
 
   .ideas {
+    &__title {
+      font-size: 22px;
+    }
+
     &__item {
       &:nth-child(1) {
         width: 236px;
@@ -82,6 +90,12 @@
     }
   }
 
+  .interests {
+    &__title {
+      font-size: 22px;
+    }
+  }
+
   .footer {
     &__wrapper {
       margin-left: 29px;
@@ -99,7 +113,8 @@
 
   .promo {
     padding-top: 21px;
-    background: url("../images/media/background.jpg") center center no-repeat;
+    background: url("../images/media/background.jpg") center center / cover
+      no-repeat;
     min-height: 540px;
 
     &__logo {
@@ -203,7 +218,7 @@
     }
 
     &__btn {
-      width: 100%;
+      width: 280px;
       padding-left: 0;
       padding-right: 0;
       cursor: default;
@@ -215,6 +230,7 @@
 
     &__wrapper {
       margin-top: 33px;
+      row-gap: 10px;
     }
 
     &__item {
@@ -305,7 +321,7 @@
       }
 
       &:nth-child(4) {
-        margin-top: 6px;
+        margin-top: 14px;
       }
     }
 
