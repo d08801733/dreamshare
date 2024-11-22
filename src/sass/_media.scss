@@ -1,0 +1,82 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 748px;
+  }
+
+  .header {
+    &__logo {
+      margin-left: 38px;
+    }
+  }
+
+  .howitworks {
+    &__item {
+      width: 236px;
+
+      &:nth-child(2) {
+        padding-top: 234px;
+        padding-bottom: 16px;
+      }
+    }
+
+    &__content {
+      width: 196px;
+    }
+  }
+
+  .partner {
+    &__wrapper {
+      padding-left: 128px;
+      padding-right: 128px;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      row-gap: 35px;
+    }
+
+    &__item {
+      &:nth-child(2) {
+        order: 3;
+      }
+
+      &:nth-child(3) {
+        order: 2;
+      }
+
+      &:nth-child(4) {
+        order: 4;
+      }
+    }
+  }
+
+  .ideas {
+    &__item {
+      &:nth-child(1) {
+        width: 236px;
+      }
+
+      &:nth-child(2) {
+        width: 236px;
+      }
+
+      &:nth-child(3) {
+        width: 236px;
+      }
+
+      &:nth-child(4) {
+        width: 236px;
+      }
+
+      &:nth-child(5) {
+        width: 492px;
+      }
+
+      &:nth-child(6) {
+        width: 492px;
+      }
+
+      &:nth-child(7) {
+        width: 236px;
+      }
+    }
+  }
+}

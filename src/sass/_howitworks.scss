@@ -17,25 +17,30 @@
 
   &__item {
     width: 300px;
+    // width: 31.91%;
     min-height: 400px;
     padding-top: 219px;
     padding-left: 25px;
 
     &:nth-child(1) {
-      background: url("../images/howitworks/step-1.jpg");
+      background: url("../images/howitworks/step-1.jpg") center center / cover
+        no-repeat;
     }
 
     &:nth-child(2) {
-      background: url("../images/howitworks/step-2.jpg");
+      background: url("../images/howitworks/step-2.jpg") center center / cover
+        no-repeat;
       padding-top: 250px;
     }
 
     &:nth-child(3) {
-      background: url("../images/howitworks/step-3.jpg");
+      background: url("../images/howitworks/step-3.jpg") center center / cover
+        no-repeat;
     }
   }
 
   &__content {
+    // width: 83.33%;
     width: 250px;
   }
 

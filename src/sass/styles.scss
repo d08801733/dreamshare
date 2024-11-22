@@ -5,7 +5,8 @@ html {
 }
 
 .container {
-  width: 65.28%;
+  width: 940px;
+  // width: 65.28%;
   margin: 0 auto;
 }
 
@@ -21,3 +22,4 @@ button {
 @import "interests";
 @import "divider";
 @import "footer";
+@import "media";
