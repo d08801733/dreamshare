@@ -89,3 +89,235 @@
     }
   }
 }
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .promo {
+    padding-top: 21px;
+    background: url("../images/media/background.jpg") center center no-repeat;
+    min-height: 540px;
+
+    &__logo {
+      margin-top: 97px;
+      display: block;
+      font-weight: 700;
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    &__title {
+      margin-top: 27px;
+      font-size: 30px;
+    }
+
+    &__text {
+      margin-top: 6px;
+      font-size: 18px;
+    }
+
+    &__btn {
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+      cursor: default;
+    }
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+
+    &__login {
+      cursor: default;
+    }
+
+    &__signup {
+      cursor: default;
+    }
+
+    &__logo {
+      display: none;
+    }
+
+    &__wrapper {
+      &:nth-child(2) {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .howitworks {
+    margin-top: 35px;
+
+    &__title {
+      font-size: 22px;
+    }
+
+    &__wrapper {
+      flex-direction: column;
+      row-gap: 10px;
+    }
+
+    &__item {
+      width: 300px;
+      min-height: 240px;
+      padding-top: 64px;
+      padding-left: 20px;
+
+      &:nth-child(1) {
+        background: url("../images/media/step-1.jpg") no-repeat;
+      }
+
+      &:nth-child(2) {
+        background: url("../images/media/step-2.jpg") no-repeat;
+        padding-top: 95px;
+      }
+
+      &:nth-child(3) {
+        background: url("../images/media/step-3.jpg") no-repeat;
+      }
+    }
+
+    &__content {
+      width: 250px;
+    }
+  }
+
+  .partner {
+    margin-top: 36px;
+
+    &__wrapper {
+      margin-top: 14px;
+      flex-direction: column;
+      padding: 0;
+      row-gap: 16px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__btn {
+      width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+      cursor: default;
+    }
+  }
+
+  .ideas {
+    margin-top: 35px;
+
+    &__wrapper {
+      margin-top: 33px;
+    }
+
+    &__item {
+      height: 120px;
+
+      &:nth-child(1) {
+        background: url("../images/media/sport.jpg") no-repeat;
+        width: 100%;
+      }
+
+      &:nth-child(2) {
+        background: url("../images/media/health.jpg") no-repeat;
+        width: 100%;
+      }
+
+      &:nth-child(3) {
+        background: url("../images/media/extreme.jpg") no-repeat;
+        width: 100%;
+      }
+
+      &:nth-child(4) {
+        background: url("../images/media/games.jpg") no-repeat;
+        width: 100%;
+      }
+
+      &:nth-child(5) {
+        background: url("../images/media/culture.jpg") no-repeat;
+        width: 100%;
+      }
+
+      &:nth-child(6) {
+        background: url("../images/media/relaxation.jpg") no-repeat;
+        width: 100%;
+      }
+
+      &:nth-child(7) {
+        background: url("../images/media/travelling.jpg") no-repeat;
+        width: 100%;
+      }
+    }
+  }
+
+  .interests {
+    margin-top: 35px;
+
+    &__text {
+      margin-top: 9px;
+    }
+
+    &__form {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 15px;
+      flex-direction: column;
+    }
+
+    &__input {
+      padding-right: 0;
+    }
+  }
+
+  .divider {
+    margin-top: 40px;
+  }
+
+  .footer {
+    padding-top: 19px;
+    padding-bottom: 22px;
+
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__item {
+      &:nth-child(2) {
+        margin-top: 13px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &:nth-child(3) {
+        margin-top: 6px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &:nth-child(4) {
+        margin-top: 6px;
+      }
+    }
+
+    &__list {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__item:nth-child(4) {
+      align-items: center;
+    }
+  }
+}

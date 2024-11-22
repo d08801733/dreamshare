@@ -3,8 +3,13 @@
   background: url("../images/background.jpg") center center / cover no-repeat;
   min-height: 700px;
 
+  &__logo {
+    display: none;
+  }
+
   &__title {
     margin-top: 148px;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 52px;
     text-align: center;
@@ -14,6 +19,7 @@
 
   &__text {
     margin-top: 29px;
+    margin-bottom: 0;
     font-family: "Roboto";
     font-weight: 300;
     font-size: 24px;
